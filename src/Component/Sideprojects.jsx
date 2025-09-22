@@ -1,22 +1,22 @@
 import React from 'react';
 import { Sparkles, Layers, Paintbrush2, Lock } from 'lucide-react';
 
-// R-Vision Project
-const RVisionProject = ({ isDark }) => (
+// Recipik - App
+const RecipikApp = ({ isDark }) => (
   <div className={`pb-2 border-b ${isDark ? 'border-gray-800' : 'border-gray-200'}`}>
     <div className={`flex items-start border-b ${isDark ? 'border-gray-800' : 'border-neutral-200'} justify-between mb-3`}>
       <div className="px-6">
         <div className={`text-xl font-medium hover:underline ${isDark ? 'text-white' : 'text-gray-900'}`}>
-          R-Vision
+          Recipik
         </div>
         <div className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-          02.2025 - 04.2025
+          06.2024 - 04.2025
         </div>
       </div>
       <div className="flex items-center gap-4">
         <div>
           <a
-            href="https://github.com/Arnav270803/Rvision"
+            href="https://github.com/aryansenpaii/recipik-app"
             className={`text-sm transition-colors ${
               isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'
             }`}
@@ -27,7 +27,7 @@ const RVisionProject = ({ isDark }) => (
       </div>
     </div>
     <div className={`mb-3 px-6 leading-relaxed text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-      Text to image generator which generates beautiful images built using clipdrop API 
+      A cross-platform recipe sharing app built with React Native and Expo, featuring MealDB API integration, YouTube tutorials, and local storage with AsyncStorage. Includes backend authentication and session management, with user information and session tokens securely stored in a MongoDB database.
     </div>
 
     <div className='py-2 px-6'>
@@ -36,7 +36,7 @@ const RVisionProject = ({ isDark }) => (
           •
           <span className='px-2'>
             <Sparkles className={`w-4 h-4 inline mr-3 ${isDark ? 'text-blue-400' : 'text-blue-500'}`} />
-            AI-Powered Text-to-Image Generator
+            Interactive and responsive UI with smooth navigation
           </span>
         </p>
 
@@ -44,7 +44,7 @@ const RVisionProject = ({ isDark }) => (
           •
           <span className='px-2'>
             <Layers className={`w-4 h-4 inline mr-3 ${isDark ? 'text-green-400' : 'text-green-500'}`} />
-            Built with MERN and Vite
+            Built with React Native, Expo and MongoDB
           </span>
         </p>
 
@@ -52,7 +52,7 @@ const RVisionProject = ({ isDark }) => (
           •
           <span className='px-2'>
             <Paintbrush2 className={`w-4 h-4 inline mr-3 ${isDark ? 'text-purple-400' : 'text-purple-500'}`} />
-            Modern UI/UX with Tailwind & Motion
+            Modern UI/UX with NativeWind and JavaScript
           </span>
         </p>
 
@@ -60,7 +60,7 @@ const RVisionProject = ({ isDark }) => (
           •
           <span className='px-2'>
             <Lock className={`w-4 h-4 inline mr-3 ${isDark ? 'text-orange-400' : 'text-orange-500'}`} />
-            Secure Auth using JWT & MongoDB
+            Secure Auth and Session Management using JWT & MongoDB
           </span>
         </p>
       </div>
@@ -341,7 +341,7 @@ const Sideprojects = ({ isDark = false }) => {
       </div>
       
       <div className="space-y-4">
-        <RVisionProject isDark={isDark} />
+        <RecipikApp isDark={isDark} />
         <WhisperFlixProject isDark={isDark} />
         <VynixProject isDark={isDark} />
         <TeachersERP isDark={isDark} />
