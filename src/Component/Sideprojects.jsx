@@ -152,27 +152,27 @@ const WhisperFlixProject = ({ isDark }) => (
   </div>
 );
 
-// Vynix Project
-const VynixProject = ({ isDark }) => (
+// Python CLI Games Project
+const PythonGames = ({ isDark }) => (
   <div className={`pb-2 border-b ${isDark ? 'border-gray-800' : 'border-gray-200'}`}>
     <div className={`flex items-start justify-between mb-3 border-b ${isDark ? 'border-gray-800' : 'border-neutral-200'}`}>
       <div className='px-6'>
         <div className={`text-lg font-medium ${isDark ? 'text-white' : 'text-gray-900'}`}>
-          Vynix
+          Python CLI Games
         </div>
         <div className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-          02.2025 - 04.2025
+          02.2024 - 04.2024
         </div>
       </div>
       <div className="flex items-center gap-4">
-        <div className={`text-sm transition-colors hover:text-red-500 animate-pulse text-red-500 ${
+        <div className={`text-sm transition-colors hover:text-green-500 animate-pulse text-green-500 ${
           isDark ? '' : ''
         }`}>
-          Ongoing
+          Completed
         </div>
         <div>
           <a
-            href="https://vynix-wnyp.vercel.app/"
+            href="https://github.com/aryansenpaii?tab=repositories&q=Python&type=&language=&sort="
             className={`text-sm transition-colors ${
               isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'
             }`}
@@ -182,7 +182,7 @@ const VynixProject = ({ isDark }) => (
         </div>
         <div>
           <a
-            href="https://github.com/Arnav270803/Vynix"
+            href="https://github.com/aryansenpaii?tab=repositories&q=Python&type=&language=&sort="
             className={`text-sm transition-colors ${
               isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'
             }`}
@@ -193,7 +193,7 @@ const VynixProject = ({ isDark }) => (
       </div>
     </div>
     <div className={`mb-3 px-6 leading-relaxed text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-      Text to video generator using Manim and LLMs
+      A collection of interactive terminal-based games built with Python.
     </div>
 
     <div className='py-2 px-6'>
@@ -201,49 +201,35 @@ const VynixProject = ({ isDark }) => (
         <p className={`text-sm mb-2 font-medium transition duration-200 ease-in-out transform hover:scale-105 hover:text-white hover:underline ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
           •
           <span className='px-2'>
-            AI-powered text-to-video generator for education.
+            Developed Snake, Hangman, and Number Guess using OOP principles and modular design.
           </span>
         </p>
 
         <p className={`text-sm mb-2 font-medium transition duration-200 ease-in-out transform hover:scale-105 hover:text-white hover:underline ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
           •
           <span className='px-2'>
-            Converts study prompts into animated learning videos.
+            Implemented file handling to track persistent high scores across sessions.
           </span>
         </p>
 
         <p className={`text-sm mb-2 font-medium transition duration-200 ease-in-out transform hover:scale-105 hover:text-white hover:underline ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
           •
           <span className='px-2'>
-           Uses LLM to generate Manim-based Python scripts.
+           Designed a user-friendly CLI interface with proper input validation and error handling.
           </span>
         </p>
 
         <p className={`text-sm mb-2 font-medium transition duration-200 ease-in-out transform hover:scale-105 hover:text-white hover:underline ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
           •
           <span className='px-2'>
-            Automates video creation with FFmpeg integration.
-          </span>
-        </p>
-
-        <p className={`text-sm mb-2 font-medium transition duration-200 ease-in-out transform hover:scale-105 hover:text-white hover:underline ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-          •
-          <span className='px-2'>
-            Designed for students and teachers’ learning needs.
-          </span>
-        </p>
-
-        <p className={`text-sm mb-3 font-medium transition duration-200 ease-in-out transform hover:scale-105 hover:text-white hover:underline ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-          •
-          <span className='px-2'>
-            Simplifies complex topics through visual explanations.
+            Focused on clean architecture and reusable components for extensibility.
           </span>
         </p>
       </div>
     </div>
 
     <div className={`text-xs px-6 ${isDark ? 'text-gray-500' : 'text-gray-500'}`}>
-      React / Node.js / Express.js / MongoDB / Manim / Python / OpenAI
+      Python / OOP / File Handling / CLI
     </div>
     <div className={`border-b py-1 mb-4 ${isDark ? 'border-gray-800' : 'border-gray-200'}`}>
     </div>
@@ -343,7 +329,7 @@ const Sideprojects = ({ isDark = false }) => {
       <div className="space-y-4">
         <RecipikApp isDark={isDark} />
         <WhisperFlixProject isDark={isDark} />
-        <VynixProject isDark={isDark} />
+        <PythonGames isDark={isDark} />
         <TeachersERP isDark={isDark} />
       </div>
       <div className={`pt-10 border-t ${isDark ? 'border-gray-800' : 'border-neutral-200'} px-2 text-xs ${isDark ? 'text-gray-400' : 'text-gray-500'} flex justify-between items-center w-full`}>
