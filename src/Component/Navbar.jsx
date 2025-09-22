@@ -56,7 +56,7 @@ const Navbar = ({ isDark, toggleTheme }) => {
           <div className="flex items-center gap-1">
             {/* Twitter Icon */}
             <a
-              href="https://x.com/Bokinsha"
+              href="https://leetcode.com/u/aryansenpai/"
               className="flex items-center justify-center w-9 h-9 cursor-pointer hover:opacity-80 transition-opacity"
               aria-label="Twitter/X Profile"
             >

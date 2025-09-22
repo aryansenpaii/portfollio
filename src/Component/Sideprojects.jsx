@@ -104,7 +104,7 @@ const WhisperFlixProject = ({ isDark }) => (
         </div>
         <div>
           <a
-            href="https://github.com/Arnav270803/WhisperFlix"
+            href="https://github.com/aryansenpaii"
             className={`text-sm transition-colors ${
               isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'
             }`}
@@ -280,7 +280,7 @@ const TeachersERP = ({ isDark }) => (
         </div>
         <div>
           <a
-            href="https://github.com/Arnav270803/Teacher-ERP"
+            href="https://github.com/aryansenpaii/Teacher-ERP"
             className={`text-sm transition-colors ${
               isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'
             }`}
