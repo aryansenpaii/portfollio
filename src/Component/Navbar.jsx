@@ -80,7 +80,7 @@ const Navbar = ({ isDark, toggleTheme }) => {
 
             {/* LinkedIn Icon */}
             <a
-              href="https://www.linkedin.com/in/arnav-sharma2708/"
+              href="https://www.linkedin.com/in/aryansenpai/"
               className="flex items-center justify-center w-9 h-9 cursor-pointer hover:opacity-80 transition-opacity"
               aria-label="LinkedIn Profile"
             >
@@ -105,7 +105,7 @@ const Navbar = ({ isDark, toggleTheme }) => {
 
             {/* GitHub Icon */}
             <a
-              href="https://github.com/Arnav270803"
+              href="https://github.com/aryansenpaii"
               className="flex items-center justify-center w-9 h-9 cursor-pointer hover:opacity-80 transition-opacity"
               aria-label="GitHub Profile"
             >
