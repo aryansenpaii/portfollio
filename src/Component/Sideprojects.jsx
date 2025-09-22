@@ -67,7 +67,7 @@ const RecipikApp = ({ isDark }) => (
     </div>
     
     <div className={`text-xs px-6 ${isDark ? 'text-gray-500' : 'text-gray-500'}`}>
-      vite / React / Tailwind CSS / Node.js / MongoDB / Express / motion.dev / lordicon / Clipdrop API / JWT
+      React Native / Expo / MealDB API / AsyncStorage / Node.js / Express.js / MongoDB / JWT
     </div>
     <div className={`border-b py-1 mb-4 ${isDark ? 'border-gray-800' : 'border-gray-200'}`}>
     </div>
