@@ -70,7 +70,7 @@ const MyIntro = ({ isDark }) => {
                   className={`text-4xl  cursor-pointer hover:underline font-medium ${isDark ? 'text-white' : 'text-gray-900'}`}
                   style={{fontFamily: 'Caveat, cursive'}}
                 >
-                  hey, I'm Arnav
+                  hey, I'm Aryan
                 </h1>
               </div>
               
@@ -104,8 +104,8 @@ const MyIntro = ({ isDark }) => {
           
           <p>
             <Code className="inline w-4 h-4 mr-2" />
-            Proficient in <span className={`font-medium hover:underline ${isDark ? 'text-white' : 'text-gray-900'}`}>C</span> and{' '}
-            <span className={`font-medium hover:underline ${isDark ? 'text-white' : 'text-gray-900'}`}>C++</span> programming languages
+            Proficient in <span className={`font-medium hover:underline ${isDark ? 'text-white' : 'text-gray-900'}`}>Java</span> and{' '}
+            <span className={`font-medium hover:underline ${isDark ? 'text-white' : 'text-gray-900'}`}>Python</span> programming languages
           </p>
           
           <p>
@@ -127,7 +127,7 @@ const MyIntro = ({ isDark }) => {
           
           <p>
             <TrendingUp className="inline w-4 h-4 mr-2" />
-            Practical marketing skills from running a SaaS service
+            Strong ratings on platforms like Codeforces, LeetCode, and CodeChef.
           </p>
           
           <p>
